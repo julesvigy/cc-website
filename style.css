@@ -101,3 +101,9 @@ a.dir
   text-decoration: none;
   color: black;
 }
+/* about section css */
+.my-row
+{
+padding-top: 50px;
+padding-left: 50px;
+}
