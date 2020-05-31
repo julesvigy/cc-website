@@ -142,5 +142,16 @@ a.dir
 /* footer */
 .my-footer
 {
-    background-color: rgb(20,1,1);
+  background-color: rgb(20,1,1);
+}
+/* areas of expertise tab */
+.areas-tab ul li
+{
+  background-color: rgb(20,1,1);
+  color: white;
+}
+.areas-tab a
+{
+  color: white;
+  text-decoration: none;
 }
