@@ -11,7 +11,7 @@
 }
 .navbar-custom
 {
-  background-color: black;
+  background-color: rgb(20, 1, 1);
 }
 /* edit logo location and navbar color*/
 .navbar-brand
@@ -73,16 +73,17 @@
 /* map, location, and hours section */
  .my-container
  {
-     margin-top: 1 em;
-     /* margin-left: 15px; */
+     margin-left: : 1%;
+     margin-right: : 1%;
  }
-/* location and hours text */
+/* about us and moto */
 .hours
 {
   text-align: left;
   font-family: Georgia, serif;
   padding-bottom: 15px;
   font-size: 17px;
+
 }
 .location
 {
@@ -94,7 +95,7 @@
 {
   text-align: left;
   font-family: Georgia, serif;
-  font-size: 23px;
+  font-size: 25px;
 }
 /* directions button  */
 a.dir
@@ -106,5 +107,40 @@ a.dir
 .my-row
 {
  padding-top: 50px;
- align-content: center;
+ /* align-content: center; */
+}
+/* servcie list text */
+.location-2
+{
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 17px;
+}
+.headhl-2
+{
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+.my-container-2
+{
+  margin-bottom: 50px;
+}
+/* home building banner */
+.my-maison
+{
+  margin-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  font: "Sans MS, cursive";
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+/* footer */
+.my-footer
+{
+    background-color: rgb(20,1,1);
 }
