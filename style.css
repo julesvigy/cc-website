@@ -1,0 +1,103 @@
+/*style.css*/
+/* nav bar stying */
+{
+    padding: 0;
+    margin: 0;
+}
+/* edit navbar in the image*/
+.navbar-brand img
+{
+    width:100px;
+}
+.navbar-custom
+{
+  background-color: black;
+}
+/* edit logo location and navbar color*/
+.navbar-brand
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* top: 2px; */
+}
+/* edit the size of the top bar */
+.navbar
+{
+   padding: 2em 0 !important;
+}
+/* arrange the text in the drop down and menu bar */
+.navbar-nav > li
+{
+  margin-left:10px;
+  margin-right:10px;
+}
+.navbar-toggler
+{
+    border: none !important;
+    outline: none !important;
+}
+.banner
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.home-header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner-text
+{
+    font-size: 36px;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.banner-text .btn-primary
+{
+    background-image: linear-gradient(to right, #3636f3,#be43f1);
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 12px;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+/* carousel styling */
+.carousel
+{
+  margin-top: 3px;
+}
+/* map, location, and hours section */
+ .my-container
+ {
+     margin-top: 20px
+ }
+/* location and hours text */
+.hours
+{
+  text-align: left;
+  font-family: Georgia, serif;
+  padding-bottom: 15px;
+  font-size: 17px;
+}
+.location
+{
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 17px;
+}
+.headhl
+{
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 23px;
+}
+/* directions button  */
+a.dir
+{
+  text-decoration: none;
+  color: black;
+}
