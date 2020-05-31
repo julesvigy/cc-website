@@ -73,7 +73,8 @@
 /* map, location, and hours section */
  .my-container
  {
-     margin-top: 20px
+     margin-top: 1 em;
+     /* margin-left: 15px; */
  }
 /* location and hours text */
 .hours
@@ -104,6 +105,6 @@ a.dir
 /* about section css */
 .my-row
 {
-padding-top: 50px;
-padding-left: 50px;
+ padding-top: 50px;
+ align-content: center;
 }
