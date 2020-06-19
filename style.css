@@ -5,59 +5,48 @@
     margin: 0;
 }
 /* edit navbar in the image*/
-.navbar-brand img
-{
+.navbar-brand img {
     width:100px;
 }
-.navbar-custom
-{
+.navbar-custom {
   background-color: rgb(20, 1, 1);
 }
 /* edit logo location and navbar color*/
-.navbar-brand
-{
+.navbar-brand {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    /* top: 2px; */
 }
 /* edit the size of the top bar */
-.navbar
-{
+.navbar {
    padding: 2em 0 !important;
 }
 /* arrange the text in the drop down and menu bar */
-.navbar-nav > li
-{
+.navbar-nav > li {
   margin-left:10px;
   margin-right:10px;
 }
-.navbar-toggler
-{
+.navbar-toggler {
     border: none !important;
     outline: none !important;
 }
-.banner
-{
+.banner {
     padding-left: 60px;
     padding-right: 60px;
 }
-.home-header
-{
+.home-header {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image.jpg);
     background-position: center;
     background-size: cover;
 }
-.banner-text
-{
+.banner-text {
     font-size: 36px;
     color: #fff;
     padding-left: 4%;
     padding-top: 220px;
     padding-bottom: 220px;
 }
-.banner-text .btn-primary
-{
+.banner-text .btn-primary {
     background-image: linear-gradient(to right, #3636f3,#be43f1);
     border: none !important;
     box-shadow: none !important;
@@ -66,72 +55,60 @@
     margin-top: 10px;
 }
 /* carousel styling */
-.carousel
-{
+.carousel {
   margin-top: 3px;
 }
 /* map, location, and hours section */
- .my-container
- {
+ .my-container {
      margin-left: : 1%;
      margin-right: : 1%;
  }
 /* about us and moto */
-.hours
-{
+.hours {
   text-align: left;
   font-family: Georgia, serif;
   padding-bottom: 15px;
   font-size: 17px;
 
 }
-.location
-{
+.location {
   text-align: left;
   font-family: Georgia, serif;
   font-size: 17px;
 }
-.headhl
-{
+.headhl {
   text-align: left;
   font-family: Georgia, serif;
   font-size: 25px;
 }
 /* directions button  */
-a.dir
-{
+a.dir {
   text-decoration: none;
   color: black;
 }
 /* about section css */
-.my-row
-{
+.my-row {
  padding-top: 50px;
  /* align-content: center; */
 }
 /* servcie list text */
-.location-2
-{
+.location-2 {
   text-align: left;
   font-family: Georgia, serif;
   font-size: 17px;
 }
-.headhl-2
-{
+.headhl-2 {
   text-align: left;
   font-family: Georgia, serif;
   font-size: 30px;
   font-style: italic;
   padding-bottom: 20px;
 }
-.my-container-2
-{
+.my-container-2 {
   margin-bottom: 50px;
 }
 /* home building banner */
-.my-maison
-{
-  margin-top: 10px;
+.my-maison {
   font-size: 25px;
   text-align: center;
   font: "Sans MS, cursive";
@@ -140,19 +117,16 @@ a.dir
   padding-bottom: 30px;
 }
 /* footer */
-.my-footer
-{
+.my-footer {
   background-color: rgb(20,1,1);
   margin-top: 7%;
 }
 /* areas of expertise tab */
-.areas-tab ul li
-{
+.areas-tab ul li {
   background-color: rgb(20,1,1);
   color: white;
 }
-.areas-tab a
-{
+.areas-tab a {
   color: white;
   text-decoration: none;
 }
@@ -168,10 +142,11 @@ a.dir
 .form-title {
   margin-top: 1%;
 }
-
 .my-form {
   margin-top: 2%;
   margin-bottom: 3%;
+  padding: 2%;
+  border: 1px solid black;
 }
 
 /* for contact home page */
@@ -186,5 +161,5 @@ color: white;
 color: #bdbdbd;
 }
 .tab-content .tab-pane {
-  border: 2px solid black;
+  border: 1px solid black;
 }
