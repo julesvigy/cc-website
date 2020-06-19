@@ -143,6 +143,7 @@ a.dir
 .my-footer
 {
   background-color: rgb(20,1,1);
+  margin-top: 7%;
 }
 /* areas of expertise tab */
 .areas-tab ul li
@@ -169,6 +170,21 @@ a.dir
 }
 
 .my-form {
-  margin-top: 3%;
+  margin-top: 2%;
   margin-bottom: 3%;
+}
+
+/* for contact home page */
+.pills-peach-gradient .nav-item {
+  background-color: #424242;
+}
+.pills-peach-gradient .nav-item .nav-link.active {
+background: #212121;
+color: white;
+}
+.pills-peach-gradient .nav-item .nav-link{
+color: #bdbdbd;
+}
+.tab-content .tab-pane {
+  border: 2px solid black;
 }
