@@ -105,7 +105,7 @@ a.dir {
   padding-bottom: 20px;
 }
 .my-container-2 {
-  margin-bottom: 50px;
+  border: 3px solid black;
 }
 /* home building banner */
 .my-maison {
@@ -149,17 +149,12 @@ a.dir {
   border: 1px solid black;
 }
 
-/* for contact home page */
-.pills-peach-gradient .nav-item {
-  background-color: #424242;
+/* portfolio page css */
+.portfolio-col {
+  margin-top: 7%;
 }
-.pills-peach-gradient .nav-item .nav-link.active {
-background: #212121;
-color: white;
-}
-.pills-peach-gradient .nav-item .nav-link{
-color: #bdbdbd;
-}
-.tab-content .tab-pane {
-  border: 1px solid black;
+.portfolio-col img{
+  width:  70px;
+  height: 400px;
+  object-fit: cover;
 }
