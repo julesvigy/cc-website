@@ -154,6 +154,6 @@ a.dir {
   margin-top: 7%;
 }
 .portfolio-col img{
-  height: 500px;
+  height: 50%;
   object-fit: cover;
 }
